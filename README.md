@@ -55,7 +55,7 @@ check([4, 5, 5, 6], 4) ➞ true
 check([], 2) ➞ false
 ```
 
-**Dica**: O array deve ser passado na primeira posição do parâmetro e o número que deve ser validado na segunda posíção do parâmetro ``check([1,2], 7)``
+**Dica**: O array deve ser passado na primeira posição do parâmetro e o número que deve ser validado na segunda posição do parâmetro ``check([1,2], 7)``
 
 #### 5. Os animais do fazendeiro
 
@@ -77,3 +77,23 @@ animals(5, 2, 8) ➞ 50
 
 **Dica**: A ordem dos animais passadas são ``animals(galinhas, vacas, porcos)``
 
+#### 6. O menor número
+
+Crie uma função que retorne o menor número:
+
+```
+smallNumber(20, 30) ➞ 20
+smallNumber(10, 5) ➞ 5
+smallNumber(20, 8) ➞ 8
+```
+#### 7. Encontre o menor número em um Array
+
+Crie uma função que retorne o menor número de um Array.
+
+##### Exemplos
+
+```
+findSmallestNumber([10, 3, 9, 4, 7]) ➞ 3
+findSmallestNumber([5, 9, 3, 10, 2]) ➞ 2
+findSmallestNumber([20, 7, 8, 6, 5]) ➞ 5
+```
