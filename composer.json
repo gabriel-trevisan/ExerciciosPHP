@@ -1,0 +1,10 @@
+{
+    "autoload": {
+        "files": [
+            "src/Easy.php"
+        ]
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    }
+}
