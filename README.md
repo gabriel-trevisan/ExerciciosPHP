@@ -86,9 +86,9 @@ smallNumber(20, 30) ➞ 20
 smallNumber(10, 5) ➞ 5
 smallNumber(20, 8) ➞ 8
 ```
-#### 7. Encontre o menor número em um Array
+#### 7. Encontre o menor número em um array
 
-Crie uma função que retorne o menor número de um Array.
+Crie uma função que retorne o menor número de um array.
 
 ##### Exemplos
 
@@ -96,4 +96,49 @@ Crie uma função que retorne o menor número de um Array.
 findSmallestNumber([10, 3, 9, 4, 7]) ➞ 3
 findSmallestNumber([5, 9, 3, 10, 2]) ➞ 2
 findSmallestNumber([20, 7, 8, 6, 5]) ➞ 5
+```
+
+#### 8. Procurando o número ausente
+
+Crie uma função que retorne o número ausente de um array de 1 até 10.
+
+##### Exemplos
+
+```
+missNumber([10, 9, 8, 7, 6, 4, 3, 2, 1]) ➞ 5
+missNumber([9, 10, 8, 7, 6, 5, 1, 2, 4]) ➞ 3
+missNumber([7, 6, 8, 10, 9, 5, 4, 3, 2]) ➞ 1
+```
+
+#### 9. Hoje é natal?
+
+Crie uma função que retorne ``true`` se hoje é Natal. Caso contrário, retorne ``false``
+
+##### Exemplos
+
+```
+isChristmas(new DateTime("2010-12-25")) ➞ true
+isChristmas(new DateTime("2050-12-25")) ➞ true
+isChristmas(new DateTime("2020-05-11")) ➞ false
+```
+
+#### 10. Validação básica e-mail
+
+Crie uma função que valide o endereço de e-mail e retorne ``true`` ou ``false``, dependendo dos valores.
+
+- A string recebida por parâmetro deve conter o caracter ``@``.
+- A string recebida por parâmetro deve conter o caracter ``.``.
+- Antes do ``@``, deve conter pelo menos um caractere.
+Exemplo: ``"g@gmail.com"`` é valido, enquanto ``"@gmail.com"`` é inválido.
+- O ``.`` e o ``@`` devem estar em seus próprios lugares.
+Exemplo: ``"gabriel@com"`` é invalido, enquanto ``"gabriel.trevisan.santos@gmail.com"`` é valido.
+
+##### Exemplos
+
+```
+isValidEmail("@gmail.com") ➞ false
+isValidEmail("gabriel@com") ➞ false
+isValidEmail("gmail") ➞ false
+isValidEmail("gabriel@gmail") ➞ false
+isValidEmail("gabriel.trevisan.santos@gmail.com") ➞ true
 ```
