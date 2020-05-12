@@ -17,7 +17,7 @@ git clone https://github.com/gabriel-trevisan/ExerciciosPHP.git
 composer install
 ```
 
-> O comando acima instala todas as depêndencias do projeto. Uma das depêndencias essências é o PHPUnit. Esta depêndencia é usada para fazer testes unitários, ou seja, é esta depência que vai corrigir se os exercícios estão corretos ou não.
+> O comando acima instala todas as depêndencias do projeto. Uma das depêndencias essências é o PHPUnit. Esta depêndencia é usada para fazer testes unitários, ou seja, é esta depêndencia que vai corrigir os exercícios.
 
 4. Realize seu primeiro exercício:
  - Abra seu editor de código.
