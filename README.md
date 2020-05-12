@@ -34,7 +34,7 @@ composer install
   
 > Você deve substituir "C:\Users\Gabriel\Documents\Projetos Pessoais\ExerciciosPHP\tests" pelo o caminho do seu projeto.
 
-O resultado do comando corrigirá os exercícios, conforme a imagem abaixo.
+O resultado do comando exibirá a correção dos exercícios, conforme a imagem abaixo.
 
 ![resultado](https://user-images.githubusercontent.com/21046633/81731140-ece08900-9464-11ea-9ce4-43739569dcae.PNG)
 
