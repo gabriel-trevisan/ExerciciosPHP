@@ -1,0 +1,7 @@
+name: exerciciosphp
+recipe: lamp
+config:
+  webroot: src
+  php: '7.4'
+  via: nginx
+  xdebug: true
